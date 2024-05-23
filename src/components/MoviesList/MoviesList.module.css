@@ -1,0 +1,27 @@
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-size: 17px;
+  transition: color 0.3s ease;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 10px;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.link:visited {
+  color: rgb(9, 9, 158);
+}
+
+.link:visited:hover {
+  color: blue;
+}

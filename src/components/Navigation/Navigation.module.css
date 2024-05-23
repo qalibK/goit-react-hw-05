@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  background-color: #000;
+  box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
+  padding: 10px;
+}
+
+.link {
+  margin-right: 10px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+}
+
+.link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #666;
+}
+
+.active {
+  background-color: #999;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
